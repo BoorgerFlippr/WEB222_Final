@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <h1 class="text">Map Maker</h1>
+    <button>CREATE NEW MAP</button>
+    <h2 class="text">Select a map Tile</h2>
+    <div class="mTile">
+        <img src="assets/mountain.png" class="cTile" id="mountain"/>
+        <img src="assets/water.png" class="oTile" id="water"/>
+        <img src="assets/player.png" class="oTile" id="player"/>
+        <img src="assets/remove.png" class="oTile" id="remove"/>
+    </div>
+    <h2 class="text">Your Map</h2>
+    <section class="map">  
+        <!-- row 1   -->
+        <div class="tile" id="1X1"></div>
+        <div class="tile" id="1x2"></div>
+        <div class="tile" id="1x3"></div>
+        <div class="tile" id="1x4"></div>
+        <div class="tile" id="1x5"></div>
+
+        <!-- row 2  -->
+        <div class="tile" id="2X1"></div>
+        <div class="tile" id="2x2"></div>
+        <div class="tile" id="2x3"></div>
+        <div class="tile" id="2x4"></div>
+        <div class="tile" id="2x5"></div>
+
+        <!-- row 3   -->
+        <div class="tile" id="3X1"></div>
+        <div class="tile" id="3x2"></div>
+        <div class="tile" id="3x3"></div>
+        <div class="tile" id="3x4"></div>
+        <div class="tile" id="3x5"></div>
+    </section>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
